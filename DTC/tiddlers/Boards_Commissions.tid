@@ -1,0 +1,18 @@
+caption: Boards/Commissions
+created: 20230816203227320
+list: [[Board of Selectmen]] [[Board of Finance]] [[Board of Assessment Appeals]] [[Board of Education]] RHAM [[Planning & Zoning Commission]] [[P & Z Alternates]] [[Zoning Board of Appeals]] [[ZBA Alternates]] [[Fire Commission]]
+modified: 20230818163004733
+revision: 0
+tags: Organizations TableOfContents
+title: Boards/Commissions
+type: text/vnd.tiddlywiki
+
+<table class="boards">
+  <thead>
+    <tr><th>Name</th><th>Term</th><th>Party</th><th>Email</th><th>Position</th></tr>
+  </thead>
+<$list filter='[tag[Boards/Commissions]org-type[elected]]'>
+  <tr><th class="board-header" colspan="5">{{!!title}} <small><$link to={{!!title}}><<icon $:/images/open-iconic/external-link>></$link></small></th></tr>
+  <$transclude $variable="board-members-body" board={{!!title}}/>
+</$list>
+</table>

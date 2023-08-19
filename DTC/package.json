@@ -1,0 +1,29 @@
+{
+  "name": "andover-ct-dtc",
+  "version": "0.1.0",
+  "description": "Info for and about the Andover, Connecticut Democratic Town Committee",
+  "main": "index.js",
+  "scripts": {
+    "pkg": "cross-var echo Package $npm_package_version",
+    "build": "cross-var tiddlywiki . --output versions/latest --build index",
+    "release": "cross-var tiddlywiki . --output . --build index && cross-var shx mkdir -p versions/$npm_package_version && cross-var shx cp index.html versions/$npm_package_version/index.html",
+    "start": "tiddlywiki . --listen port=7420"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andover-ct-dems/andover-ct-dems.github.io.git"
+  },
+  "keywords": [
+    "Andover, Connecticut",
+    "Democratic Party",
+    "DTC"
+  ],
+  "author": "Scott Sauyet",
+  "license": "MIT",
+  "homepage": "https://democrats.andoverct.info/",
+  "devDependencies": {
+    "cross-var": "^1.1.0",
+    "shx": "^0.3.4",
+    "tiddlywiki": "^5.3.0"
+  }
+}

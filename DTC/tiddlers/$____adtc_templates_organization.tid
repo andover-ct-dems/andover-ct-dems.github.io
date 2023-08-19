@@ -1,0 +1,11 @@
+created: 20230816194804625
+modified: 20230818151004114
+revision: 0
+tags: $:/tags/ViewTemplate
+title: $:/_/adtc/templates/organization
+type: text/vnd.tiddlywiki
+
+<$list filter="[<currentTiddler>tag[Boards/Commissions]first[]]" variable="_">
+<h2>Members</h2>
+<$transclude $variable="board-members" board={{!!title}}/>
+</$list>
