@@ -1,6 +1,6 @@
 {
   "name": "andover-ct-dtc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Info for and about the Andover, Connecticut Democratic Town Committee",
   "main": "index.js",
   "scripts": {
