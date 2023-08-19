@@ -1,8 +1,13 @@
+modified: 20230819224422877
 status: complete
 title: $:/Import
 type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[2023 Campaign Strategy Part 3 & 4.docx]]
-# [[2023 Campaign Strateg Part 1 & 2docx.docx]]
+# [[$:/plugins/kookma/utility/reader-mode/styles]]
+# [[$:/plugins/kookma/utility/reader-mode/switch-actions]]
+# [[$:/_/adtc/actions/setReadOnlyOnReload]]
+# [[$:/_/adtc/actions/resetSidebarOnReload]]
+# [[$:/config/ShortcutInfo/switch-reader-mode]]
+# [[$:/config/shortcuts/switch-reader-mode]]
