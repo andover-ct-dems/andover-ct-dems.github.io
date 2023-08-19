@@ -1,5 +1,5 @@
 created: 20230817151520063
-modified: 20230819032822138
+modified: 20230819180848577
 tags: $:/tags/ViewTemplate
 title: $:/_/adtc/templates/person
 type: text/vnd.tiddlywiki
@@ -19,9 +19,9 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[tag[Seat]name<currentTiddler>first[]]" variable="__">
 <br/>
-<dt>Board Memberships</dt>
+<dt>Memberships</dt>
 <$list filter="[tag[Seat]name<currentTiddler>!is[draft]]"  >
-  <dd>{{{ [{!!organization}] }}}<$list filter="[<currentTiddler>has[position]]"><$text text={{{ [[ (]] [{!!position}] [[)]] +[join[]] }}} /></$list>: {{!!term-start}} - {{!!term-expiration}}</dd>
+  <dd>{{{ [{!!organization}] }}}<$list filter="[<currentTiddler>has[position]]"><$text text={{{ [[ (]] [{!!position}] [[)]] +[join[]] }}} /></$list><$list filter="[<currentTiddler>has[term-expiration]]">: {{!!term-start}} - {{!!term-expiration}}</$list></dd>
 </$list>
 
 </$list>
