@@ -1,6 +1,6 @@
 {
   "name": "andover-ct-dtc",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Info for and about the Andover, Connecticut Democratic Town Committee",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/andover-ct-dems/andover-ct-dems.github.io.git"
   },
   "keywords": [
-    "Andover, Connecticut",
+    "Andover", "Connecticut",
     "Democratic Party",
     "DTC"
   ],
