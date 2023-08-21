@@ -1,12 +1,12 @@
 created: 20230816194341161
-modified: 20230819180414134
+modified: 20230821010139109
 tags: $:/tags/Macro
 title: $:/_/adtc/macros/board-members
 type: text/vnd.tiddlywiki
 
 \define board-members-body(board)
 <tbody>
-<$list filter="[tag[Seat]organization<__board__>]  +[sort[name]]"><$let person={{!!name}} >
+<$list filter="[tag[Position]organization<__board__>]  +[sort[name]]"><$let person={{!!name}} >
     <tr>
       <td><$link to={{!!name}} /></td>
       <td>{{!!term-start}} - {{!!term-expiration}}</td>

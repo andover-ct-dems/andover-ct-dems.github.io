@@ -1,5 +1,5 @@
 created: 20230819161912133
-modified: 20230819183109852
+modified: 20230820183313572
 tags: Organizations
 title: Democratic Town Committee
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
     <tr><th>Name</th><th>Party</th><th>Email</th><th>Position</th></tr>
   </thead>
   <tbody>
-<$list filter="[tag[Seat]organization<currentTiddler>]" ><$let person={{!!name}} >
+<$list filter="[tag[Position]organization<currentTiddler>]" ><$let person={{!!name}} >
     <tr>
       <td><$link to={{!!name}} /></td>
       <td><$link to={{{ [<person>get[party]] }}} /></td>
