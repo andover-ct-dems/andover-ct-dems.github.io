@@ -1,8 +1,8 @@
+caption: Parties
 created: 20230817192843626
-modified: 20230818022753158
-revision: 0
+modified: 20230821021611038
 tags: TableOfContents
-title: Parties
+title: Party
 type: text/vnd.tiddlywiki
 
 <<list-links filter:[tag<currentTiddler>] >>

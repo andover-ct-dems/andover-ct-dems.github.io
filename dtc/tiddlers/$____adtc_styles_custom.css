@@ -14,3 +14,10 @@ a .doc-icon svg {fill: #5778d8;}
 
 div[data-tiddler-title^="Bylaws"] .tc-tiddler-body h2  {font-weight: 500;}
 div[data-tiddler-title^="Bylaws"] .tc-tiddler-body h3  {font-weight: 600;}
+
+table.candidates ul {list-style: none;}
+table.candidates thead th {font-size: 1.25em; padding: .5em;}
+table.candidates td.Democratic {background: #eef;}
+table.candidates td.Republican {background: #fee;}
+table.candidates th.Democratic {background: #e8e8f8;}
+table.candidates th.Republican {background: #f8e8e8;}
